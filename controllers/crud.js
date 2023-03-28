@@ -14,3 +14,18 @@ exports.save = (req,res)=>{
         }
       })
 }
+exports.update = (req, res) => {
+  const id = req.body.id;
+  const estudiante = req.body.estudiante;
+  const rut = req.body.rut;
+  const curso = req.body.curso;
+  const nivel = req.body.nivel;
+
+  conexion.query('UPDATE estudiantes SET nombre=$1, rut=$2, curso=$3, nivel=$4 WHERE id=$5', [estudiante, rut, curso, nivel, id], (error, result) => {
+    if (error) {
+      console.log(error);
+    } else {
+      res.redirect('/');
+    }
+  })
+}
