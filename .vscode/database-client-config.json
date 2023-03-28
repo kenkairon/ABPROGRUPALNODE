@@ -1,0 +1,29 @@
+{
+    "$schema": "https://release-1256208672.cos.ap-guangzhou.myqcloud.com/dbclient/schema.json",
+    "database": {
+        "1679927971294": {
+            "host": "localhost",
+            "port": 5432,
+            "user": "postgres",
+            "password": "1234",
+            "dbType": "PostgreSQL",
+            "database": "grupal",
+            "name": "ABprogrupales",
+            "useConnectionString": false,
+            "usingSSH": false,
+            "global": false,
+            "savePassword": "Forever",
+            "hideSystemSchema": true,
+            "readonly": false,
+            "sort": 10,
+            "useSSL": false,
+            "encrypt": false,
+            "authType": "default",
+            "esAuth": "none",
+            "showHidden": true,
+            "srv": false,
+            "key": "1679927971294",
+            "connectionKey": "database.connections"
+        }
+    }
+}
