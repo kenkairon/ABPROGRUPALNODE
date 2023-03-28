@@ -61,10 +61,6 @@ router.get('/delete/:id', (req, res) => {
     })
 });
 
-
-
-
-
 router.post('/save', crud.save);
 router.post('/update', crud.update);
 
