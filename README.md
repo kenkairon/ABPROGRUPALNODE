@@ -2,7 +2,7 @@
 
 Integrantes 
 -----------------------------------
-Ender Pérez
-Javier Alcayaga
+Ender Pérez -
+Javier Alcayaga -
 Carlos Vásquez
 -----------------------------------
