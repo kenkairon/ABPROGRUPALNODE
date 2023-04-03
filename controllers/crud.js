@@ -10,6 +10,7 @@ exports.save = (req,res)=>{
         if (error) {
           console.log(error);
         } else {
+          req.flash('success', 'Estudiante Agregado Correctamente')
           res.redirect('/');
         }
       })
@@ -25,6 +26,7 @@ exports.update = (req, res) => {
       if (error) {
         console.log(error);
       } else {
+        req.flash('success', 'Estudiante Editado Correctamente')
         res.redirect('/');
       }
     })
